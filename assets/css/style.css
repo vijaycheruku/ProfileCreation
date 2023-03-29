@@ -1,0 +1,139 @@
+/* styles added for Profile page */
+header {
+    background-color: #382b2be0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#title {
+    background-color: #90d8e1;
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navTags,
+.navTagsFooter {
+    font-size: 1.3em;
+    margin: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navTags {
+    color: #90d8e1;
+}
+
+.navTagsFooter {
+    color: #37737a;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 80px;
+}
+
+li {
+    display: inline;
+}
+
+#profileSubtitle {
+    background-image: url(../images/code\ wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    padding: 2%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#profilePic {
+    width: 15%;
+    padding-left: 67px;
+}
+
+#profileSubtitle {
+    font-size: 30px
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+}
+
+.workTileImg {
+    width: 100%;
+}
+
+.workTile {
+    width: 90%;
+    position: relative;
+}
+
+.flexbox-row {
+    width: 48%;
+}
+
+.mainFlexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.leftFlex {
+    width: 20%;
+}
+
+.rightFlex {
+    width: 75%;
+    margin-left: 2%;
+    border-left: 3px solid #00adff;
+    padding-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headersProfile {
+    float: right;
+    margin-right: 4%;
+    color: #37737a;
+}
+
+#contactMe ul {
+    padding: 0;
+}
+
+.projectHeader {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 0;
+    background-color: #90d8e1;
+    font-weight: bold;
+    padding: 2%;
+}
+
+#aboutmetext {
+    font-size: 1em;
+    line-height: 25px;
+    width: 80%;
+    display: block;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#profileSubtitleText {
+    padding-right: 40px;
+}
