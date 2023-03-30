@@ -42,12 +42,12 @@ li {
 }
 
 #profileSubtitle {
-    background-image: url(../images/code\ wallpaper.jpeg);
+    background-image: url(../images/profileBackground.JPG);
     background-size: cover;
     background-position: center;
     display: flex;
     color: white;
-    padding: 2%;
+    padding: 1%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
